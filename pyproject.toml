@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "clustering"
+version = "0.1.0"
+description = "proyecto para P2 de la asignatura IN"
+authors = ["adiazcencillo <albertodiazcen@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.5.0"
+scikit-learn = "^1.2.0"
+matplotlib = "^3.6.0"
+seaborn = "^0.11.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
